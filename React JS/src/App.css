@@ -1,0 +1,40 @@
+/* Header - horizontal navbar layout */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo container */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+/* Navigation items */
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items li {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-items li:hover {
+    color: #e86c25;
+}
+
